@@ -1,6 +1,6 @@
 {
   "name": "@kaivanwong/playgrounds-rollup",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A rollup project for npm builds",
   "author": "Kaivan Wong",
   "keywords": [

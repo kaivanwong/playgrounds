@@ -1,17 +1,21 @@
-# @playgrounds/rollup
+# @kaivanwong/playgrounds-rollup
 
 A rollup project for npm builds
 
 ## Installation
 
 ```sh
-npm install @playgrounds/rollup
+npm install @kaivanwong/playgrounds-rollup
+
+# You can also use npm or yarn
+ 
+npm install @kaivanwong/playgrounds-rollup --save
 ```
 
 ## Usage
 
 ```js
-import { Sum } from '@playgrounds/rollup'
+import { Sum } from '@kaivanwong/playgrounds-rollup'
 
 console.log(Sum(1, 2))
 ```
