@@ -1,6 +1,6 @@
 # @kaivanwong/playgrounds-rollup
 
-A rollup project for npm builds
+Rollup project for npm builds
 
 ## Installation
 

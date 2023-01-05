@@ -1,6 +1,6 @@
 # @kaivanwong/playgrounds-nestjs
 
-A server application based on nestjs
+Server application based on nestjs
 
 ## Installation
 
