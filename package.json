@@ -1,0 +1,37 @@
+{
+  "name": "@kaivanwong/playgrounds",
+  "description": "A playground repository for features or snippets of code",
+  "author": "Kaivan Wong",
+  "keywords": [
+    "kaivanwong",
+    "playgrounds"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/kaivanwong/playgrounds#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaivanwong/playgrounds.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kaivanwong/playgrounds/issues"
+  },
+  "private": true,
+  "packageManager": "pnpm@7.21.0",
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "lint-staged": "lint-staged"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "eslint"
+    ],
+    "*.vue": [
+      "eslint"
+    ]
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.34.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.1.0"
+  }
+}
