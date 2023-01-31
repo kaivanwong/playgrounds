@@ -13,4 +13,4 @@ A playground repository for features or snippets of code
 
 ## License
 
-[MIT licensed](./LICENSE) © 2022-PRESENT [Kaivan Wong](https://github.com
+[MIT licensed](./LICENSE) © 2022-PRESENT [Kaivan Wong](https://github.com/kaivanwong)
