@@ -1,6 +1,6 @@
 # @kaivanwong/playgrounds-nestjs
 
-Server application based on nestjs
+Server application based on Nestjs
 
 ## License
 
