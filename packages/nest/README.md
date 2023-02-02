@@ -1,4 +1,4 @@
-# @kaivanwong/playgrounds-nestjs
+# @kaivanwong/playgrounds-nest
 
 Server application based on Nestjs
 

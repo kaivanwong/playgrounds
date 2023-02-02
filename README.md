@@ -7,7 +7,7 @@ A playground repository for features or snippets of code
 | Name                      | Description                        |
 | ------------------------- | ---------------------------------- |
 | [rollup](packages/rollup) | Rollup project for npm builds      |
-| [nestjs](packages/nestjs) | Server application based on Nestjs |
+| [nest](packages/nestjs)   | Server application based on Nestjs |
 
 ## License
 

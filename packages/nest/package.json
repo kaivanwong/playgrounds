@@ -1,18 +1,18 @@
 {
-  "name": "@kaivanwong/playgrounds-nestjs",
+  "name": "@kaivanwong/playgrounds-nest",
   "version": "0.0.0",
   "description": "Server application based on Nestjs",
   "author": "Kaivan Wong <kaivanwong@outlook.com>",
   "keywords": [
     "kaivanwong",
     "playgrounds",
-    "nestjs"
+    "nest"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/kaivanwong/playgrounds/packages/nestjs#readme",
+  "homepage": "https://github.com/kaivanwong/playgrounds/packages/nest#readme",
   "repository": {
     "url": "kaivanwong/playgrounds",
-    "directory": "packages/nestjs"
+    "directory": "packages/nest"
   },
   "bugs": {
     "url": "https://github.com/kaivanwong/playgrounds/issues"
