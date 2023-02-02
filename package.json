@@ -27,7 +27,8 @@
     ]
   },
   "devDependencies": {
-    "@kaivanwong/eslint-config": "^0.6.1",
+    "@kaivanwong/eslint-config": "^0.8.7",
+    "eslint": "^8.33.0",
     "husky": "^8.0.3",
     "lint-staged": "^13.1.0"
   }
