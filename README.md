@@ -8,8 +8,6 @@ A playground repository for features or snippets of code
 | ------------------------- | ---------------------------------- |
 | [rollup](packages/rollup) | Rollup project for npm builds      |
 | [nestjs](packages/nestjs) | Server application based on Nestjs |
-| [vue](packages/vue)       | A SPA web application by Vuejs     |
-| [react](packages/react)   | A SPA web application by React     |
 
 ## License
 
