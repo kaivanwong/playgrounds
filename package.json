@@ -24,7 +24,7 @@
     "lint:fix": "eslint . --fix"
   },
   "devDependencies": {
-    "@kaivanwong/eslint-config": "^0.8.12",
+    "@kaivanwong/eslint-config": "^0.10.0",
     "eslint": "^8.33.0",
     "husky": "^8.0.3",
     "lint-staged": "^13.1.0"

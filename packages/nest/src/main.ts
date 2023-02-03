@@ -1,8 +1,8 @@
 import { NestFactory } from '@nestjs/core'
 import { SystemModule } from './system/system.module'
 
-async function bootstrap() {
-  const app = await NestFactory.create(SystemModule)
+NestFactory.create(SystemModule).then(async (app) => {
   await app.listen(3000)
-}
-bootstrap()
+}).catch ((error) => {
+  console.error(error)
+})

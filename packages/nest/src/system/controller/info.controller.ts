@@ -1,5 +1,5 @@
 import { Controller, Get } from '@nestjs/common'
-import type { SystemInfo } from '../interfaces/info'
+import { SystemInfo } from '../interfaces/info'
 import { SystemInfoService } from './../service/info.service'
 
 @Controller('system/info')

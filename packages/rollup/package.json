@@ -41,7 +41,7 @@
     "lodash": "^4.17.21"
   },
   "devDependencies": {
-    "@kaivanwong/eslint-config": "^0.8.12",
+    "@kaivanwong/eslint-config": "^0.10.0",
     "@rollup/plugin-commonjs": "^24.0.1",
     "@rollup/plugin-json": "^6.0.0",
     "@rollup/plugin-node-resolve": "^15.0.1",
