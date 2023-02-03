@@ -1,11 +1,9 @@
 {
   "name": "@kaivanwong/playgrounds",
+  "private": true,
+  "packageManager": "pnpm@7.21.0",
   "description": "A playground repository for features or snippets of code",
   "author": "Kaivan Wong <kaivanwong@outlook.com>",
-  "keywords": [
-    "kaivanwong",
-    "playgrounds"
-  ],
   "license": "MIT",
   "homepage": "https://github.com/kaivanwong/playgrounds#readme",
   "repository": {
@@ -15,23 +13,25 @@
   "bugs": {
     "url": "https://github.com/kaivanwong/playgrounds/issues"
   },
-  "private": true,
-  "packageManager": "pnpm@7.21.0",
+  "keywords": [
+    "kaivanwong",
+    "playgrounds"
+  ],
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "lint-staged": "lint-staged",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },
+  "devDependencies": {
+    "@kaivanwong/eslint-config": "^0.8.12",
+    "eslint": "^8.33.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.1.0"
+  },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
       "eslint"
     ]
-  },
-  "devDependencies": {
-    "@kaivanwong/eslint-config": "^0.8.10",
-    "eslint": "^8.33.0",
-    "husky": "^8.0.3",
-    "lint-staged": "^13.1.0"
   }
 }

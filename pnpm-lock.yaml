@@ -1,13 +1,13 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@kaivanwong/eslint-config': ^0.8.10
+  '@kaivanwong/eslint-config': ^0.8.12
   eslint: ^8.33.0
   husky: ^8.0.3
   lint-staged: ^13.1.0
 
 devDependencies:
-  '@kaivanwong/eslint-config': 0.8.10_4vsywjlpuriuw3tl5oq6zy5a64
+  '@kaivanwong/eslint-config': 0.8.12_4vsywjlpuriuw3tl5oq6zy5a64
   eslint: 8.33.0
   husky: 8.0.3
   lint-staged: 13.1.0
@@ -82,8 +82,8 @@ packages:
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
     dev: true
 
-  /@kaivanwong/eslint-config-base/0.8.10_ufewo3pl5nnmz6lltvjrdi2hii:
-    resolution: {integrity: sha512-VqXwMl44KihOfMFT6BOwOfKLqUNDP6PkUHOMv54g8EZbo1uYYtozhvtnkwTH7MlpbnA/A69bZDHeCydoyljBEA==}
+  /@kaivanwong/eslint-config-base/0.8.12_ufewo3pl5nnmz6lltvjrdi2hii:
+    resolution: {integrity: sha512-C3CdQpVD1seMZQzB5ZA3l2lLDqRjLvu8qWsHbLx3io5u3XjfbGl33f6eyY3JFOGBct38fIMZ96X39GU1K4z+Lg==}
     peerDependencies:
       eslint: '>=7.4.0'
     dependencies:
@@ -107,8 +107,8 @@ packages:
       - supports-color
     dev: true
 
-  /@kaivanwong/eslint-config-nest/0.8.10_eslint@8.33.0:
-    resolution: {integrity: sha512-sfbgDVBJ0HtbhYa5+eGmh1Y38tGDBaJoS647/ZfLj1J7XHktmJ83V6mCKTAoroYK+3X317hAeg0dud6jFbOs4A==}
+  /@kaivanwong/eslint-config-nest/0.8.12_eslint@8.33.0:
+    resolution: {integrity: sha512-5lsriIIJ02Q+WCaEG6AClEffZg6p6/DzqATYLe3gaKywG8uEqPewo2YjnmCzjlB4LJS6wLKJLny8bdxNLNJQ2g==}
     peerDependencies:
       eslint: '>=7.4.0'
     dependencies:
@@ -116,8 +116,8 @@ packages:
       local-pkg: 0.4.3
     dev: true
 
-  /@kaivanwong/eslint-config-react/0.8.10_eslint@8.33.0:
-    resolution: {integrity: sha512-XXArIKEY7B0tCwot4mOc0ZU5N2fTOTYQtCgxrS/dVdn/SM0QWooojwfn0jUJ+kKmbI4CbIoLJjg6bVGTWEBiAw==}
+  /@kaivanwong/eslint-config-react/0.8.12_eslint@8.33.0:
+    resolution: {integrity: sha512-QoVyOLbVcUQeiGyeSiD/SXaU27CRxvg0Bk1mEm/qYK4s44FmSgUo+yy0hkHe99niMqnYU8G5yRvZaO2lnPU2hA==}
     peerDependencies:
       eslint: '>=7.4.0'
     dependencies:
@@ -127,12 +127,12 @@ packages:
       local-pkg: 0.4.3
     dev: true
 
-  /@kaivanwong/eslint-config-ts/0.8.10_4vsywjlpuriuw3tl5oq6zy5a64:
-    resolution: {integrity: sha512-XbkNza6+YApuYbIvg0uIvLYYJRkXsBRwmT8mx7Xu17niPsllgt85SL8OuCEqRnxIKwClk9qrgi8M1lzdAghQ5A==}
+  /@kaivanwong/eslint-config-ts/0.8.12_4vsywjlpuriuw3tl5oq6zy5a64:
+    resolution: {integrity: sha512-e+9fH7w6oVNbDCoin8UNwmjeHXf2cFPVd2v19wKg8qmTl6tZRRRLeJJq0PXYQYodolRz7q1mhGJQ49T/NR3vqg==}
     peerDependencies:
       eslint: '>=7.4.0'
     dependencies:
-      '@kaivanwong/eslint-config-base': 0.8.10_ufewo3pl5nnmz6lltvjrdi2hii
+      '@kaivanwong/eslint-config-base': 0.8.12_ufewo3pl5nnmz6lltvjrdi2hii
       '@typescript-eslint/eslint-plugin': 5.50.0_go4drrxstycfikanvu45pi4vgq
       '@typescript-eslint/parser': 5.50.0_4vsywjlpuriuw3tl5oq6zy5a64
       eslint: 8.33.0
@@ -145,8 +145,8 @@ packages:
       - typescript
     dev: true
 
-  /@kaivanwong/eslint-config-vue/0.8.10_eslint@8.33.0:
-    resolution: {integrity: sha512-oHnxxpDB9Ncy99g5GUlM9QevPDvk5ULkQKC6VHb8m0ck5d0Io+vnPMLmjZWuB/GzH+97FEW8FCTG7O5ywhMwPQ==}
+  /@kaivanwong/eslint-config-vue/0.8.12_eslint@8.33.0:
+    resolution: {integrity: sha512-axZbn+SckBcNDHeZ0CFquOWLAXUfzjgwZ06ygm0SDitwfdQRkPD63Ks6Rs/AimWYX0t8cBKHyEtN1XNUYkzGiQ==}
     peerDependencies:
       eslint: '>=7.4.0'
     dependencies:
@@ -157,16 +157,16 @@ packages:
       - supports-color
     dev: true
 
-  /@kaivanwong/eslint-config/0.8.10_4vsywjlpuriuw3tl5oq6zy5a64:
-    resolution: {integrity: sha512-QqFt96+F3gV7LumM3SpG5rwLiCOQKF1D1z0iKs2vB6kDuAbKe4ysdt8VB0NOTFLADjeh+MSzkOXI50Sx4m7DBA==}
+  /@kaivanwong/eslint-config/0.8.12_4vsywjlpuriuw3tl5oq6zy5a64:
+    resolution: {integrity: sha512-ri8EDJvGfN0PJ9Yxg/JVWIS1TX421aR2V+rxFckbz28FGyqMpPe3/fn40F9ZfLD+FmArxx0gVqDsox19/cng+g==}
     peerDependencies:
       eslint: '>=7.4.0'
     dependencies:
-      '@kaivanwong/eslint-config-base': 0.8.10_ufewo3pl5nnmz6lltvjrdi2hii
-      '@kaivanwong/eslint-config-nest': 0.8.10_eslint@8.33.0
-      '@kaivanwong/eslint-config-react': 0.8.10_eslint@8.33.0
-      '@kaivanwong/eslint-config-ts': 0.8.10_4vsywjlpuriuw3tl5oq6zy5a64
-      '@kaivanwong/eslint-config-vue': 0.8.10_eslint@8.33.0
+      '@kaivanwong/eslint-config-base': 0.8.12_ufewo3pl5nnmz6lltvjrdi2hii
+      '@kaivanwong/eslint-config-nest': 0.8.12_eslint@8.33.0
+      '@kaivanwong/eslint-config-react': 0.8.12_eslint@8.33.0
+      '@kaivanwong/eslint-config-ts': 0.8.12_4vsywjlpuriuw3tl5oq6zy5a64
+      '@kaivanwong/eslint-config-vue': 0.8.12_eslint@8.33.0
       '@typescript-eslint/eslint-plugin': 5.50.0_go4drrxstycfikanvu45pi4vgq
       '@typescript-eslint/parser': 5.50.0_4vsywjlpuriuw3tl5oq6zy5a64
       eslint: 8.33.0

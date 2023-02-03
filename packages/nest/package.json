@@ -3,11 +3,6 @@
   "version": "0.0.0",
   "description": "Server application based on Nestjs",
   "author": "Kaivan Wong <kaivanwong@outlook.com>",
-  "keywords": [
-    "kaivanwong",
-    "playgrounds",
-    "nest"
-  ],
   "license": "MIT",
   "homepage": "https://github.com/kaivanwong/playgrounds/packages/nest#readme",
   "repository": {
@@ -17,6 +12,11 @@
   "bugs": {
     "url": "https://github.com/kaivanwong/playgrounds/issues"
   },
+  "keywords": [
+    "kaivanwong",
+    "playgrounds",
+    "nest"
+  ],
   "scripts": {
     "serve": "npm run serve:dev",
     "serve:dev": "nest start --watch",
@@ -32,14 +32,12 @@
     "rxjs": "^7.8.0"
   },
   "devDependencies": {
-    "@kaivanwong/eslint-config": "^0.8.10",
     "@nestjs/cli": "^9.1.9",
     "@nestjs/schematics": "^9.0.4",
     "@nestjs/testing": "^9.3.1",
     "@types/express": "^4.17.16",
     "@types/node": "18.11.18",
     "@types/supertest": "^2.0.12",
-    "eslint": "^8.33.0",
     "source-map-support": "^0.5.21",
     "supertest": "^6.3.3",
     "ts-loader": "^9.4.2",
