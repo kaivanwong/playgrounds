@@ -1,6 +1,0 @@
-process.env.ESLINT_TSCONFIG = 'tsconfig.json'
-
-module.exports = {
-  root: true,
-  extends: '@kaivanwong',
-}
