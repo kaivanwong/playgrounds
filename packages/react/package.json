@@ -22,5 +22,10 @@
     "test": "react-scripts test",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
+  },
+  "eslintConfig": {
+    "extends": [
+      "@kaivanwong"
+    ]
   }
 }
