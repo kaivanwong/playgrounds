@@ -1,0 +1,41 @@
+{
+  "name": "@kaivanwong/playgrounds-react",
+  "version": "0.0.0",
+  "description": "Sample SPA web project for React",
+  "author": "Kaivan Wong <kaivanwong@outlook.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/kaivanwong/playgrounds/packages/react#readme",
+  "repository": {
+    "url": "kaivanwong/playgrounds",
+    "directory": "packages/react"
+  },
+  "bugs": {
+    "url": "https://github.com/kaivanwong/playgrounds/issues"
+  },
+  "keywords": [
+    "kaivanwong",
+    "playgrounds",
+    "react"
+  ],
+  "scripts": {
+    "build": "react-scripts build",
+    "eject": "react-scripts eject",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "start": "react-scripts start",
+    "test": "react-scripts test"
+  },
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "devDependencies": {
+    "@kaivanwong/eslint-config": "0.13.0-beta.22",
+    "eslint": "^8.34.0"
+  }
+}
