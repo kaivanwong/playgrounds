@@ -19,7 +19,7 @@
   ],
   "scripts": {},
   "devDependencies": {
-    "@kaivanwong/eslint-config": "0.13.3"
+    "@kaivanwong/eslint-config": "0.13.6"
   },
   "eslintConfig": {
     "extends": [
