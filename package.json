@@ -1,5 +1,5 @@
 {
-  "name": "@kaivanwong/playgrounds",
+  "name": "@kaivanwong/playgrounds-monorepo",
   "private": true,
   "packageManager": "pnpm@7.21.0",
   "description": "A playground repository for features or snippets of code",
