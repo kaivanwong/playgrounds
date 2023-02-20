@@ -22,7 +22,7 @@
     "lint:fix": "eslint . --fix"
   },
   "devDependencies": {
-    "@kaivanwong/eslint-config": "0.13.6"
+    "@kaivanwong/eslint-config": "0.13.9"
   },
   "eslintConfig": {
     "extends": [
