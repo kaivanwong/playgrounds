@@ -18,6 +18,9 @@
     "playgrounds"
   ],
   "scripts": {},
+  "devDependencies": {
+    "@kaivanwong/eslint-config": "0.13.3"
+  },
   "eslintConfig": {
     "extends": [
       "@kaivanwong"

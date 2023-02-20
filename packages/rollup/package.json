@@ -32,8 +32,6 @@
   "scripts": {
     "build": "rollup -c ./rollup.config.js",
     "dev": "rollup -c ./rollup.config.js -w",
-    "lint": "eslint .",
-    "lint:fix": "eslint . --fix",
     "preinstall": "npx only-allow pnpm",
     "typecheck": "tsc --noEmit"
   },
@@ -41,7 +39,6 @@
     "lodash": "^4.17.21"
   },
   "devDependencies": {
-    "@kaivanwong/eslint-config": "0.13.2",
     "@rollup/plugin-commonjs": "^24.0.1",
     "@rollup/plugin-json": "^6.0.0",
     "@rollup/plugin-node-resolve": "^15.0.1",
