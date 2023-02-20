@@ -17,5 +17,10 @@
     "kaivanwong",
     "playgrounds"
   ],
-  "scripts": {}
+  "scripts": {},
+  "eslintConfig": {
+    "extends": [
+      "@kaivanwong"
+    ]
+  }
 }
