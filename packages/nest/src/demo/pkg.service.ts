@@ -1,7 +1,7 @@
 import { Inject, Injectable } from '@nestjs/common'
 
 @Injectable()
-export class TestService {
+export class PkgService {
   constructor(@Inject('pkgName') private pkgName: string) { }
 
   getPkgName() {

@@ -1,7 +1,7 @@
 import { Controller, Get, Inject } from '@nestjs/common'
 
-@Controller('test')
-export class TestController {
+@Controller('pkg')
+export class PkgController {
   constructor(@Inject('pkgName') private pkgName: string) { }
 
   @Get()

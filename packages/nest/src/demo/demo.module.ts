@@ -1,24 +1,25 @@
 import path from 'path'
 import { Module } from '@nestjs/common'
-import { config } from 'dotenv'
+import { config as dotenv } from 'dotenv'
 import { config as devConfig } from './config/dev.config'
 import { config as prodConfig } from './config/prod.config'
 import { DemoController } from './demo.controller'
 import { DemoService } from './demo.service'
-import { TestController } from './test.controller'
-import { TestService } from './test.service'
+import { PkgService } from './pkg.service'
+import { PkgController } from './pkg.controller'
 import { DbService } from './db.service'
+import { TestModule } from './test.module'
 
-config({ path: path.join(__dirname, '../../.env') })
+dotenv({ path: path.join(__dirname, '../../.env') })
 
 console.warn(`Mode:${process.env.NODE_ENV}`)
 
 @Module({
-  controllers: [DemoController, TestController],
+  imports: [TestModule],
+  controllers: [DemoController, PkgController],
   providers: [
     DemoService,
-    TestService,
-    DbService,
+    PkgService,
     {
       provide: 'pkgName',
       useValue: '@kaivanwong/nest',
@@ -32,7 +33,7 @@ console.warn(`Mode:${process.env.NODE_ENV}`)
       inject: ['config'],
       useFactory(configService) {
         console.warn(`Config:${JSON.stringify(configService)}`)
-        return new DbService()
+        return new DbService(configService)
       },
     }],
   /**
