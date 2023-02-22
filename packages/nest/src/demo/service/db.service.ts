@@ -16,8 +16,12 @@ export class DbService {
     })
   }
 
-  getDbConfig() {
-    return this.dbConfig
+  getDbConfig(path?: string) {
+    return path
+      ? path.split('.').reduce((config, name) => {
+        return config[name]
+      }, this.dbConfig)
+      : this.dbConfig
   }
 
   public connect() {

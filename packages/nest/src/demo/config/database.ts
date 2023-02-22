@@ -1,5 +1,8 @@
 export default () => {
   return {
-    url: 'xxx.xxx.x.xxx',
+    db:
+    {
+      url: 'xxx.xxx.x.xxx',
+    },
   }
 }
