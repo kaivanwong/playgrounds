@@ -1,4 +1,4 @@
 export const config = {
   mode: 'prod',
-  url: 'xxxx',
+  url: 'xxx.xxx.x.xxx',
 }
