@@ -60,5 +60,17 @@ console.warn(`Mode:${process.env.NODE_ENV}`)
    *    }
    * }]
    */
+  /**
+   * 异步服务 providers
+   * providers: [{
+   *    privide:'dbClient',
+   *    inject: ['config'],
+   *    useFactory:async(configService)=> {
+   *        return new Promise((r)=>{
+   *            setTimeout(()-=>{r('ok!')},3000)
+   *        })
+   *    }
+   * }]
+   */
 })
 export class DemoModule { }
