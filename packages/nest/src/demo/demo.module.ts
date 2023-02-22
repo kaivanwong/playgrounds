@@ -5,9 +5,9 @@ import { config as devConfig } from './config/dev.config'
 import { config as prodConfig } from './config/prod.config'
 import { DemoController } from './demo.controller'
 import { DemoService } from './demo.service'
-import { PkgService } from './pkg.service'
-import { PkgController } from './pkg.controller'
-import { DbService } from './db.service'
+import { PkgService } from './service/pkg.service'
+import { PkgController } from './controller/pkg.controller'
+import { DbService } from './service/db.service'
 import { TestModule } from './test.module'
 
 dotenv({ path: path.join(__dirname, '../../.env') })
