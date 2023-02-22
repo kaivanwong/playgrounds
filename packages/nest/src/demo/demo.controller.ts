@@ -9,6 +9,7 @@ export class DemoController {
   getConfig() {
     // return this.demoSerive.get()
     // return this.dbService.connect()
-    return this.demoSerive.getTest()
+    // return this.demoSerive.getTest()
+    return this.dbService.getDbConfig()
   }
 }
