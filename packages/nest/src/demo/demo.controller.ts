@@ -8,6 +8,7 @@ export class DemoController {
   @Get()
   getConfig() {
     // return this.demoSerive.get()
-    return this.dbService.connect()
+    // return this.dbService.connect()
+    return this.demoSerive.getTest()
   }
 }
