@@ -9,13 +9,14 @@ import { PkgService } from './service/pkg.service'
 import { PkgController } from './controller/pkg.controller'
 import { DbService } from './service/db.service'
 import { TestModule } from './test.module'
+import { GlobalModule } from './global.module'
 
 dotenv({ path: path.join(__dirname, '../../.env') })
 
 console.warn(`Mode:${process.env.NODE_ENV}`)
 
 @Module({
-  imports: [TestModule],
+  imports: [TestModule, GlobalModule.register({ path: path.resolve(__dirname, './config') })],
   controllers: [DemoController, PkgController],
   providers: [
     DemoService,

@@ -1,11 +1,11 @@
 import path from 'path'
 import { readdirSync } from 'fs'
-import { Injectable } from '@nestjs/common'
+import { Injectable, Optional } from '@nestjs/common'
 
 @Injectable()
 export class DbService {
   dbConfig = {}
-  constructor(private readonly config: Record<string, any>) {
+  constructor(private readonly config: Record<string, any>, @Optional() private options = {}) {
     const _path = path.resolve(__dirname, '../config/')
     readdirSync(_path).map(async (file) => {
       if (file.slice(-2) === 'js') {
