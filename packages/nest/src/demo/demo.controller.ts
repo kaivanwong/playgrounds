@@ -10,7 +10,7 @@ export class DemoController {
     // return this.demoService.get()
     // return this.dbService.connect()
     // return this.demoService.getTest()
-    // return this.dbService.getDbConfig('db.url')
-    return this.reg
+    return this.dbService.getDbConfig('db.url')
+    // return this.reg
   }
 }

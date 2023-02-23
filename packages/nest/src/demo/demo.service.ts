@@ -3,10 +3,10 @@ import { TestService } from './test.service'
 
 @Injectable()
 export class DemoService {
-  constructor(@Inject('config') private readonly config: Record<string, any>, private readonly testService: TestService, @Inject('testDesc') private readonly testDesc: string) { }
+  constructor(@Inject('envConfig') private readonly config: Record<string, any>, private readonly testService: TestService, @Inject('testDesc') private readonly testDesc: string) { }
 
   get() {
-    return this.config.url
+    return this.config
   }
 
   getTest() {

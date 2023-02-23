@@ -7,15 +7,17 @@ import { DynamicModule, Global, Module } from '@nestjs/common'
   ],
 })
 export class GlobalModule {
-  static register(options: { path: string }): DynamicModule {
-    console.warn(options)
+  static register(config: { path: string }): DynamicModule {
     return {
       module: GlobalModule,
       providers: [{
         provide: 'register',
         useValue: 'Here is register',
+      }, {
+        provide: 'config',
+        useValue: config,
       }],
-      exports: ['register'],
+      exports: ['register', 'config'],
     }
   }
 }

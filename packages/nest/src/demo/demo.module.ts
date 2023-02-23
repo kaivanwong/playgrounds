@@ -26,15 +26,14 @@ console.warn(`Mode:${process.env.NODE_ENV}`)
       useValue: '@kaivanwong/nest',
     },
     {
-      provide: 'config',
+      provide: 'envConfig',
       useValue: process.env.NODE_ENV === 'development' ? devConfig : prodConfig,
     },
     {
       provide: 'db',
-      inject: ['config'],
-      useFactory(configService) {
-        console.warn(`Config:${JSON.stringify(configService)}`)
-        return new DbService(configService)
+      inject: ['envConfig'],
+      useFactory(GlobalModule) {
+        return new DbService(GlobalModule)
       },
     }],
   /**
@@ -65,7 +64,7 @@ console.warn(`Mode:${process.env.NODE_ENV}`)
    * 异步服务 providers
    * providers: [{
    *    privide:'dbClient',
-   *    inject: ['config'],
+   *    inject: ['envConfig'],
    *    useFactory:async(configService)=> {
    *        return new Promise((r)=>{
    *            setTimeout(()-=>{r('ok!')},3000)
