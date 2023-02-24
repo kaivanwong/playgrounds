@@ -1,7 +1,7 @@
 import { NestFactory } from '@nestjs/core'
-import { DemoModule } from './demo/demo.module'
+import { UserModule } from './user/user.module'
 
-NestFactory.create(DemoModule).then(async (app) => {
+NestFactory.create(UserModule).then(async (app) => {
   await app.listen(8000)
 }).catch((error) => {
   console.error(error)
