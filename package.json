@@ -22,11 +22,10 @@
     "lint:fix": "eslint . --fix"
   },
   "devDependencies": {
-    "@kaivanwong/eslint-config": "0.13.9"
+    "@kaivanwong/eslint-config": "0.13.14",
+    "eslint": "^8.35.0"
   },
   "eslintConfig": {
-    "extends": [
-      "@kaivanwong"
-    ]
+    "extends": "@kaivanwong"
   }
 }
